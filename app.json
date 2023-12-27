@@ -21,10 +21,30 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.galkinalexeyandreevich.clearproject"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7264df73-21a2-4efc-bab0-a28d9475e726"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/7264df73-21a2-4efc-bab0-a28d9475e726"
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "galkinalexeyandreevich"
+        }
+      ]
+    ]
   }
 }
